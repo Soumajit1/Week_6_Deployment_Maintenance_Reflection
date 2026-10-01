@@ -33,22 +33,7 @@ remne
 /* about */
 .stmt{font:600 clamp(1.8rem,4.2vw,3.6rem)/1.15 var(--d);letter-spacing:-.035em;max-width:24ch}
 .wd{opacity:.16;display:inline-block;margin-right:.26em}
-.ab2{display:grid;grid-template-columns:minmax(220px,.7fr) 1fr;gap:clamp(30px,6vw,90px);margin-top:80px;align-items:center}
-.pf{aspect-ratio:3/4;max-width:400px;border-radius:6px;overflow:hidden;position:relative;background:var(--bg2)}
-.pf img{position:absolute;left:-6%;top:-6%;width:112%;height:112%;object-fit:cover;object-position:50% 20%}
-.pf::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(8,9,11,.8)),linear-gradient(140deg,rgba(167,139,255,.22),transparent 50%)}
-.ab2 p{max-width:42ch;font-size:1.12rem}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);margin-top:80px}
-.stat{padding:26px 22px 8px 0;border-right:1px solid var(--line);padding-left:22px}.stat:first-child{padding-left:0}.stat:last-child{border:0}
-.stat b{display:block;font:600 clamp(1.8rem,4vw,3.4rem)/1 var(--d);letter-spacing:-.04em}
-.stat span{font-size:.85rem;color:var(--mut)}
-/* projects index */
-.row{border-top:1px solid var(--line)}.row:last-child{border-bottom:1px solid var(--line)}
-.rh{display:grid;grid-template-columns:56px 1fr auto 36px;gap:12px;align-items:center;width:100%;text-align:left;background:none;border:0;color:var(--tx);padding:clamp(22px,3.4vw,40px) 0;cursor:pointer;font-family:var(--d)}
-.rh .n{font-size:.9rem;color:var(--mut)}
-.rh .t{font:600 clamp(2rem,6.2vw,5.6rem)/1 var(--d);letter-spacing:-.045em;transition:transform .5s cubic-bezier(.2,.8,.2,1),color .4s}
-.rh .s{font-size:.85rem;color:var(--mut);text-align:right}
-.rh .pl{font-size:1.6rem;transition:transform .5s,color .4s;text-align:center}
+.ab2{display:grid;grid-template-columns:mi
 .row:hover .t,.row.o .t{transform:translateX(16px);color:var(--ac)}
 .row.o .pl{transform:rotate(45deg);color:var(--ac)}
 .rb{display:grid;grid-template-rows:0fr;transition:grid-template-rows .6s cubic-bezier(.2,.8,.2,1)}
