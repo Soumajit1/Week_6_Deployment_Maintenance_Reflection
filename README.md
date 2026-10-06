@@ -6,3 +6,5 @@ public:
             return 0;in
 ()) {
             return 0;in
+()) {
+            return 0;in
