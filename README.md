@@ -7,7 +7,7 @@ public:
 ()) {
 needle) {
         if (needle.empty()) {
-            return 0;in
+            return 0;inSASRDHGHJ
 ()) {
 needle) {
         if (needle.empty()) {GHFH
