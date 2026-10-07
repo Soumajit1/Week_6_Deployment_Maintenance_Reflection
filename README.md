@@ -9,3 +9,7 @@ needle) {
         if (needle.empty()) {
             return 0;in
 ()) {
+needle) {
+        if (needle.empty()) {
+            return 0;in
+()) {
