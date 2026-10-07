@@ -10,7 +10,7 @@ needle) {
             return 0;in
 ()) {
 needle) {
-        if (needle.empty()) {
+        if (needle.empty()) {GHFH
             return 0;in
 ()) {
 /**
