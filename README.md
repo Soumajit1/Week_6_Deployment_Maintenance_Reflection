@@ -6,15 +6,29 @@ public:
             return 0;in
 ()) {
 needle) {
-        if (needle.empty()) {
-            return 0;inSASRDHGHJ
-()) {
-needle) {
-        if (needle.empty()) {GHFH
-        if (needle.empty()) {GHFHV
-            return 0;in
-()) {
-/**DESCRIPTION
+        if (needle.empty()) {class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        int n = matrix.size();
+      
+        // Step 1: Flip the matrix horizontally (reverse rows)
+        // Swap the first row with the last row, second with second-to-last, etc.
+        for (int i = 0; i < n / 2; ++i) {
+            for (int j = 0; j < n; ++j) {
+                swap(matrix[i][j], matrix[n - 1 - i][j]);
+            }
+        }
+      
+        // Step 2: Transpose the matrix (swap along the diagonal)
+        // Swap element at position (i, j) with element at position (j, i)
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < i; ++j) {
+                swap(matrix[i][j], matrix[j][i]);
+            }
+        }
+    }
+};
+
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
