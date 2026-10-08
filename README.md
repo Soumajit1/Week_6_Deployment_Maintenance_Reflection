@@ -11,6 +11,7 @@ needle) {
 ()) {
 needle) {
         if (needle.empty()) {GHFH
+        if (needle.empty()) {GHFHV
             return 0;in
 ()) {
 /**DESCRIPTION
