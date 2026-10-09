@@ -70,20 +70,7 @@ public:
             if (!currentNode) {
                 return true;
             }
-          
-            // Recursively validate left subtree
-            if (!inOrderValidate(currentNode->left)) {
-                return false;
-            }
-          
-            // Check BST property: current node value must be greater than previous node value
-            if (previousNode && previousNode->val >= currentNode->val) {
-                return false;
-            }
-          
-            // Update previous node for next comparison
-            previousNode = currentNode;
-          
+         82. Remove Duplicates from Sorted List II
             // Recursively validate right subtree
             return inOrderValidate(currentNode->right);
         };
