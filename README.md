@@ -6,11 +6,7 @@ public:
             return 0;in
 ()) {
 needle) {What is Cloud Computing? Explain in detail.
-                pre = cur;
-            } else {
-                pre->next = cur->next;
-            }
-            cur = cur->next;
+                pre = cur;What is Cloud Computing? Explain in detail.
         }
         return dummy->next;
     }
