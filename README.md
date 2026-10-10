@@ -5,8 +5,7 @@ public:
         if (needle.empty()) {
             return 0;in
 ()) {
-needle) {What is Cloud Computing? Explain in detail.
-                pre = cur;What is Cloud Computing? Explain in detail.
+needle) {What is Cloud Computing? Explain in detail.What is Cloud Computing? Explain in detail.
         }
         return dummy->next;
     }
