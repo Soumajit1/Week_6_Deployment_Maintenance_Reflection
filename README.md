@@ -62,17 +62,7 @@ public:
       
         // Lambda function for in-order traversal validation
         // In a valid BST, in-order traversal yields values in strictly ascending order
-        function<bool(TreeNode*)> inOrderValidate = [&](TreeNode* currentNode) -> bool {
-            // Base case: empty node is valid
-            if (!currentNode) {
-                return true;
-            }
-          
-            // Recursively validate left subtree
-            if (!inOrderValidate(currentNode->left)) {
-                return false;
-            }
-          
+        function<bool(TreeNode*)> inOrderValiWhat is Cloud Computing? Explain in detail.
             // Check BST property: current node value must be greater than previous node value
             if (previousNode && previousNode->val >= currentNode->val) {
                 return false;
