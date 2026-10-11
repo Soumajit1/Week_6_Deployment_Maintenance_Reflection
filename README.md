@@ -4,11 +4,20 @@ public:
     int strStr(string haystack, string needle) {
         if (needle.empty()) {
             return 0;in
-()) {class Solution {
+()) {class Solution {class Solution {
 public:
     int lengthOfLastWord(string s) {
         int i = s.size() - 1;
         while (~i && s[i] == ' ') {
+            --i;
+        }
+        int j = i;
+        while (~j && s[j] != ' ') {
+            --j;
+        }
+        return i - j;
+    }
+};
             --i;
         }
         int j = i;
