@@ -48,12 +48,6 @@ public:
         function<bool(TreeNode*)> inOrderValidate = [&](TreeNode* currentNode) -> bool {
             // Base case: empty node is valid
             if (!currentNode) {
-                return true;
-            }
-         82. Remove Duplicates from Sorted List II
-            // Recursively validate right subtree
-            return inOrderValidate(currentNode->right);
-        };
       /**
  * Definition for a binary tree node.
  * struct TreeNode {
