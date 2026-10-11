@@ -4,11 +4,20 @@ public:
     int strStr(string haystack, string needle) {
         if (needle.empty()) {
             return 0;in
-()) {
-needle) {What is Cloud Computing? Explain in detail.What is Cloud Computing? Explain in detail.
+()) {class Solution {
+public:
+    int lengthOfLastWord(string s) {
+        int i = s.size() - 1;
+        while (~i && s[i] == ' ') {
+            --i;
         }
-        return dummy->next;
+        int j = i;
+        while (~j && s[j] != ' ') {
+            --j;
+        }
+        return i - j;
     }
+};
 };
 
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
