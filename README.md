@@ -38,14 +38,6 @@ public:
             return inOrderValidate(currentNode->right);
         };
       
-        // Start validation from root
-        return inOrderValidate(root);
-    }
-};
-
-        // Lambda function for in-order traversal validation
-        // In a valid BST, in-order traversal yields values in strictly ascending order
-        function<bool(TreeNode*)> inOrderValidate = [&](TreeNode* currentNode) -> bool {
             // Base case: empty node is valid
             if (!currentNode) {
       /**
