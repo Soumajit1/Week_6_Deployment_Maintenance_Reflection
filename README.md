@@ -6,15 +6,12 @@ public:
             return 0;in
 ()) {class Solution {class Solution {class Solution {
 public:
+    int searchInsert(vector<int>& nums, int target) {class Solution {
+public:
     int searchInsert(vector<int>& nums, int target) {
         return lower_bound(nums.begin(), nums.end(), target) - nums.begin();
     }
 };
-        }
-        int j = i;
-        while (~j && s[j] != ' ') {
-            --j;
-        }
         return i - j;
     }
 };
