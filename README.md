@@ -4,13 +4,12 @@ public:
     int strStr(string haystack, string needle) {
         if (needle.empty()) {
             return 0;in
-()) {class Solution {class Solution {
+()) {class Solution {class Solution {class Solution {
 public:
-    int lengthOfLastWord(string s) {
-        return i - j;
+    int searchInsert(vector<int>& nums, int target) {
+        return lower_bound(nums.begin(), nums.end(), target) - nums.begin();
     }
 };
-            --i;
         }
         int j = i;
         while (~j && s[j] != ' ') {
