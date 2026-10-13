@@ -74,15 +74,4 @@ public:
             previousNode = currentNode;
           
             // Recursively validate right subtree
-            return inOrderValidate(curTFTYrentNode->right);
-        };
-      GJUUG
-        // Start validation from root
-        return inOrderValidate(root);
-    }
-};
-
-        // Start validation from root
-        return inOrderValidate(root);
-    }
-};
+            ret
